@@ -75,7 +75,6 @@ FUNCTION invl(mean (ms)) (ms) {
 }
 VERBATIM
 double nrn_random_pick(void* r);
-void* nrn_random_arg(int argpos);
 ENDVERBATIM
 
 FUNCTION erand() {
