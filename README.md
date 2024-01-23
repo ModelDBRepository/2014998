@@ -75,3 +75,8 @@ Here we do not list all specific changes implemented, but rather a high-level ov
 		- mossy cell excitation: scale_MC2GC_strength
 3. Single neuron experiments demonstrating "U"-shaped ISI relationship can be simulated by running `run_singlegc.sh`. Analysis can then be completed using `gcpp_analysis.ipynb`. 
 4. Single-cell tuning for HIPP cells and MCs are in `optimize_HCs.py` and `optimize_MCs.py`
+
+## NEURON Compatibility
+
+1. VERBATIM block in MOD files are updated to fix the compatibility with
+   the upcoming NEURON v9 release https://github.com/ModelDBRepository/2014998/pull/1/.
